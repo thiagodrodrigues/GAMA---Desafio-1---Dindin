@@ -1,0 +1,700 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    color: white;
+    text-decoration: none;
+    height: 117px;
+    padding: 0px 0px 0px 80px;
+}
+nav ul{
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    list-style: none;
+    padding-right: 100px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+nav ul li{
+    padding: 0px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+main header{
+    display: flex;
+    margin: 35px 35px 35px 35px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+main header div h1{
+    color: #ff4081;
+    font-weight: 500;
+    font-size: 60px;
+}
+main header div{
+    padding: 20px 20px 20px 20px;
+    width: 501px;
+}
+main header div span{
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+}
+main header div button{
+    font-size: 18px;
+    font-weight: 600;
+    color: #ff4081;
+    border: 1px solid #ff4081;
+    border-radius: 20px;
+    padding: 10px 25px 10px 25px;
+    margin: 20px 0px 20px 0px;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: white;
+    cursor: pointer;
+}
+.cursos{
+    background: #f7f7f7;
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.lista-cursos{
+    width: 370px;
+    margin: 20px 8px;
+    align-items: center;
+    text-align: center;
+}
+main section div h1{
+    color: #ff4081;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+}
+main section div button{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 50px;
+    color: white;
+    border: 1px solid #ff4081;
+    border-radius: 62px;
+    padding: 10px 25px 10px 25px;
+    margin: 20px 0px 20px 0px;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #ff4081;
+    cursor: pointer;
+}
+.o-que-falam{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: center;
+    flex-direction: column;
+}
+section table tr td{
+    width: 300px;
+}
+section table tr td div{
+    display: flex;
+}
+.falam{
+    width: 370px;
+    margin: 20px 8px;
+    align-items: left;
+    text-align: left;
+}
+section table tr td p{
+    padding: 10px;
+}
+main section h1{
+    padding-bottom: 20px;
+    color: #009688;
+    text-transform: uppercase;
+}
+section table{
+    display: table;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: center;
+    flex-direction: column;
+    background: #f7f7f7;
+}
+#retangulo{
+    background: #c4c4c4;
+    width: 319px;
+    height: 193px;
+}
+.posts-conteudo{
+    width: 319px;
+    text-align: left;
+    margin: 0px 0px;
+    padding-bottom: 20px;
+}
+#itaque{
+    color: #009688;
+}
+#contet{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+main section button{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    border: 2px solid #ff4081;
+    border-radius: 62px;
+    padding: 10px 25px 10px 25px;
+    margin: 20px 40%;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #f7f7f7;
+    align-items: center;
+    cursor: pointer;
+}
+main section button a{
+    text-decoration: none;
+    color: #ff4081;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    color: white;
+    text-decoration: none;
+    height: 207px;
+    padding: 53px 137px 53px 128px;
+}
+footer ul li{
+    padding: 0px 15px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+footer ul{
+    display: table-column;
+    justify-content: end;
+    text-decoration: none;
+    list-style: none;
+    padding-right: 100px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: lowercase;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+footer div button{
+    font-size: 20px;
+    font-weight: 400;
+    width: 225px;
+    color: white;
+    border: 2px solid #FFFFFF;
+    margin-bottom: 10px;
+    border-radius: 62px;
+    padding: 10px 25px 10px 25px;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #2E948A;
+    align-items: center;
+    cursor: pointer;
+}
+#header-cursos{
+    display: flex;
+    margin: 35px 35px 35px 35px;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+#span-header-cursos{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+#section-cursos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#section-div-cursos{
+        padding: 20px 20px 20px 20px;
+        align-items: center;
+        max-width: 650px;
+        margin: 50px 0px 50px 0px;
+}
+#button-comecar-cursos{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    border-radius: 62px;
+    border: 0px;
+    padding: 10px 25px 10px 25px;
+    margin: 25px 0px 25px 0px;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #419488;
+    cursor: pointer;
+}
+#titulo-section-cursos{
+    color: #ff4081;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 35px;
+    margin-bottom: 25px;
+}
+section div hr{
+    background: #c4c4c4;
+    color: #c4c4c4;
+    border-color: #c4c4c4;
+    margin: 0px 10% 50px 10%;
+}
+
+#section-curso{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#section-div-curso{
+    padding: 20px 20px 20px 20px;
+    align-items: center;
+    max-width: 40%;
+    margin: 50px 0px 50px 0px;
+}
+#titulo-section-curso{
+    color: #ff4081;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    margin-bottom: 25px;
+}
+#videos-curso{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: center;
+    flex-direction: column;
+    background: #f7f7f7;
+}
+#aula-curso{
+    display: flex;
+    text-align: left;
+    margin: 0px 0px;
+}
+#aula-text-curso{
+    padding: 20px 20px 20px 50px;
+    align-items: center;
+    max-width: 650px;
+}
+section hr{
+    background: #c4c4c4;
+    color: #c4c4c4;
+    border-color: #c4c4c4;
+    margin: 50px 0% 50px 0%;
+}
+#main-post{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+#div-retangulo{
+    margin: 0px 100px 0px 100px;
+    background: #c4c4c4;
+    width: 1500px;
+    height: 465px;
+}
+#titulo-post{
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#span-header-post{
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    color: #9D9D9D;
+}
+#texto-principal-post{
+    margin: 100px;
+}
+#section-conteudo-blog{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px;
+}
+#h1-div-section-blog{
+    color: #009688;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+#div-conteudo-blog{
+    padding: 20px 20px 20px 20px;
+    align-items: center;
+    max-width: 40%;
+    margin: 50px 0px 50px 0px;
+}
+#div-posts-blog{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    background-color: #f7f7f7;
+}
+.posts-blog{
+    width: 500px;
+    text-align: left;
+    margin: 0px 0px;
+    padding-bottom: 100px;
+}
+#retangulo-blog{
+    background: #c4c4c4;
+    width: 500px;
+    height: 260px;
+}
+#other-hand{
+    color: #ff4081;
+    font-size: 30px;
+}
+#contato{
+    font-size: 18px;
+    font-weight: 600;
+    color: #ff4081;
+    padding: 0px 20px 0px 20px;
+    margin: 0px 19px 0px 19px;
+    list-style-type: none;
+    text-decoration: none;
+    width: 500px;
+}
+#textarea{
+    font-size: 18px;
+    font-weight: 600;
+    color: #686868;
+    border: 1px solid #686868;
+    border-radius: 5px;
+    padding: 7px 20px 7px 20px;
+    margin: 0px 19px 0px 19px;
+    list-style-type: none;
+    text-decoration: none;
+    width: 450px;
+    margin: 25px 25px 25px 0px;
+}
+#button-contato{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #ff4081;
+    color: whitesmoke;
+    border: 1px solid #ff4081;
+    border-radius: 20px;
+    padding: 10px 50px 10px 50px;
+    list-style-type: none;
+    text-decoration: none;
+}
+#input{
+    font-size: 18px;
+    font-weight: 600;
+    color: #686868;
+    border: 1px solid #686868;
+    border-radius: 5px;
+    padding: 7px 20px 7px 20px;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 25px 25px 25px 0px;
+}
+#main-contato{
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 850px){
+    nav {
+        padding: 0px 10px 0px 10px;}
+    nav ul{
+        padding-right: 10px;
+        display: table-column;
+    }
+    section table{
+        padding: 0px;
+        margin: 0 auto;
+    }
+    .o-que-falam{
+        padding: 10px;
+    }
+    section table tr td{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        align-items: center;
+    }
+    section table tr{
+        align-items: center;
+    }
+    main section button{
+        margin: 20px 50px;
+    }
+    footer{
+        padding: 53px 25px 53px 25px;;
+    }
+    footer ul{
+        padding: 0px 10px;
+    }
+    footer div button{
+        width: 126px;
+        border-radius: 30px;
+    }
+    #section-conteudo-blog{
+        margin: 10px;
+    }
+    #h1-div-section-blog{
+        font-size: 35px;
+        line-height: 35px;
+    }
+    #div-conteudo-blog{
+        margin: 30px 0px 30px 0px;
+        padding: 5px;
+    }
+    #ilustra-blog{
+        width: 340px;
+        height: 340px;
+    }
+    #section-div-curso{
+        max-width: 80%;
+        margin: 15px 0px 15px 0px;
+        padding: 8px;
+    }
+    #section-curso{
+        flex-direction: column;
+    }
+    #aula-curso{
+        flex-direction: column;
+        justify-content: center;
+    }
+    #video-video{
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 600px){
+    nav {
+        padding: 0px 10px 10px 10px;
+        flex-direction: column;
+    }
+    nav ul{
+        display: flex;
+    }
+    main header{
+        display: flex;
+        margin: 5px 5px 5px 5px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    main header div h1{
+        color: #ff4081;
+        font-weight: 500;
+        font-size: 30px;
+    }
+    main header div{
+        padding: 5px 5px 5px 5px;
+        width: 280;
+    }
+    main header div span{
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+    }
+    main header div button{
+        font-size: 9px;
+        font-weight: 600;
+        color: #ff4081;
+        border: 1px solid #ff4081;
+        border-radius: 20px;
+        padding: 5px 12px 5px 12px;
+        margin: 10px 0px 10px 0px;
+        list-style-type: none;
+        text-decoration: none;
+        background-color: white;
+        cursor: pointer;
+    }
+    .cursos{
+        background: #f7f7f7;
+        display: flex;
+        padding: 25px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #ilustra-banner{
+        width: 100%;
+        height: 100%;
+    }
+    img{
+        width: 100%;
+    }
+    main section h1{
+        padding-bottom: 10px;
+        font-size: 18px;
+    }
+    .falam{
+        width: 280px;
+        margin: 10px 4px;
+    }
+    section table tr td p{
+        padding: 5px;
+    }
+    .conteudo{
+        padding: 20px;
+    }
+    .o-que-falam{
+        padding: 0px;
+    }
+    section table tr td{
+        width: 180px;
+    }
+    .conteudo{
+        padding: 8px;
+    }
+    #retangulo{
+        width: 260px;
+        height: 156px;
+    }
+    .posts-conteudo{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    #contet{
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+    footer{
+        height: 207px;
+        padding: 25px 25px 25px 25px;
+        flex-direction: column;
+        height: 100%;
+    }
+    footer ul{
+        display: flex;
+    }
+    footer div{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    footer div button{
+        margin: 3px;
+    }
+    #div-conteudo-blog{
+        max-width: 80%;
+    }
+    #h1-div-section-blog{
+        font-size: 15px;
+        line-height: 15px;
+    }
+    #ilustra-blog{
+        width: 260px;
+        height: 260px;
+    }
+    #div-posts-blog{
+        padding: 15px;
+    }
+    #retangulo-blog{
+        width: 260px;
+        height: 140px;
+    }
+    .posts-blog{
+        width: 280px;
+        text-align: left;
+        margin: 0px 0px;
+        padding-bottom: 40px;
+    }
+    #contato{
+        font-size: 9px;
+        font-weight: 300;
+        width: 250px;
+        margin: 7px 8px 7px 0px;
+        padding: 0px;
+    }
+    #textarea{
+        font-weight: 300;
+        width: 250px;
+        margin: 7px 8px 7px 0px;
+        padding: 7px 8px 7px 8px;
+    }
+    #input{
+        font-weight: 300;
+        margin: 7px 8px 7px 0px;
+        padding: 8px;
+        width: 260px;
+    }
+    #main-contato{
+        margin: 10px;
+    }
+    #titulo-section-curso{
+        font-size: 25px;
+        line-height: 25px;
+    }
+    #img-video-curso{
+        width: 100%;
+        height: 100%;
+    }
+    #video-me-poupe{
+        width: 100%;
+        height: 100%;
+    }
+    #videos-curso{
+        padding: 5px;
+        padding-bottom: 20px;
+    }
+    #aula-text-curso{
+        padding: 10px;
+    }
+    #div-retangulo{
+        margin: 8px;
+    }
+    #main-post{
+        margin: 7px;
+    }
+    #texto-principal-post{
+        margin: 5px;
+    }
+}
